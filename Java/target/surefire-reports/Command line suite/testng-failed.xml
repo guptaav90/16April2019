@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="TestNG_ParametersAnnotation.TestNG_ParametersAnnotation">
+        <methods>
+          <include name="CRMPROLoginPageTest"/>
+        </methods>
+      </class> <!-- TestNG_ParametersAnnotation.TestNG_ParametersAnnotation -->
+      <class name="TestNG_ExpectedExceptionKeyword.TestNG_ExpectedExceptionKeyword">
+        <methods>
+          <include name="CRMPROLoginPageTest"/>
+        </methods>
+      </class> <!-- TestNG_ExpectedExceptionKeyword.TestNG_ExpectedExceptionKeyword -->
+      <class name="TestNG_DependOnMethodKeyword.TestNG_DependOnMethodKeyword">
+        <methods>
+          <include name="CRMPROLoginPageTest"/>
+          <include name="SwitchToIframe"/>
+          <include name="CRMPROHomePageTest"/>
+          <include name="CRMPROTaskTest"/>
+        </methods>
+      </class> <!-- TestNG_DependOnMethodKeyword.TestNG_DependOnMethodKeyword -->
+      <class name="TestNG_GroupsKeyword.TestNG_GroupsKeyword">
+        <methods>
+          <include name="CRMPROLoginPageTest"/>
+          <include name="SwitchToIframe"/>
+          <include name="CRMPROTaskTest"/>
+          <include name="CRMPROHomePageTest"/>
+        </methods>
+      </class> <!-- TestNG_GroupsKeyword.TestNG_GroupsKeyword -->
+      <class name="TestNG_InvocationCountKeyword.TestNG_InvocationCountKeyword">
+        <methods>
+          <include name="CRMPROLoginPageTest"/>
+        </methods>
+      </class> <!-- TestNG_InvocationCountKeyword.TestNG_InvocationCountKeyword -->
+      <class name="TestNG_PriortyKeyword.TestNG_PriortyKeyword">
+        <methods>
+          <include name="CRMPROLoginPageTest"/>
+          <include name="SwitchToIframe"/>
+          <include name="CRMPROTaskTest"/>
+          <include name="CRMPROHomePageTest"/>
+        </methods>
+      </class> <!-- TestNG_PriortyKeyword.TestNG_PriortyKeyword -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

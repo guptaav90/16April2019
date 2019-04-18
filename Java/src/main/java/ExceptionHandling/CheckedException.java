@@ -13,10 +13,11 @@ public class CheckedException {
 
 		try {
 		Thread.sleep(1000);
-		
+		System.out.println("***");
 	     }
 		
 		catch (InterruptedException e) {
+			
 		  e.printStackTrace();
 		}
 		System.out.println("***");
@@ -26,10 +27,12 @@ public class CheckedException {
 	 
 	try {
 		Properties prop =new Properties();
-		FileInputStream fis = new FileInputStream("C:\\Users\\gupta.av\\eclipse-workspace\\Java\\File.properties");
+		FileInputStream fis = new FileInputStream("C:\\Users\\gupta.av\\eclipse-workspace\\Java\\Fileee.properties");
 		 prop.load(fis);
 		
 	} catch (IOException e) {
+		
+		
 		
 		e.printStackTrace();
 	}

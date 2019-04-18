@@ -13,7 +13,7 @@ public class ThrowVsThrows {
 			
 		}
 		
-		
+		//throw new Exception("ABC Exception");
 
 }
 

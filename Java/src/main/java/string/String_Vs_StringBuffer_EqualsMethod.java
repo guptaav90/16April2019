@@ -12,8 +12,8 @@ public class String_Vs_StringBuffer_EqualsMethod {
 		
 		if (str1.equals(str2)) {
 			
-			System.out.println("If both object of content are same then will return true because in string class of equals method "
-					+ "check object of content, so if same then *TRUE*");
+			System.out.println("If both object of content are same then will return true because in equals method of string class"
+					+ "check content of object, so if same then *TRUE*");
 		} 
 		
 		else 
@@ -22,6 +22,16 @@ public class String_Vs_StringBuffer_EqualsMethod {
 			System.out.println("If both object of content are not same then will return false because in string class of equals method "
 					+ "check object of content, so if different then *FALSE*");
 		}
+		
+		String s100="abc";
+		String s110="abc";
+		System.out.println(s100.equals(s110));//true
+		
+		
+		String s1000="abc";
+		String s1100="dbh";
+		System.out.println(s1000.equals(s1100));//false
+		
 		
 		
 		String str3=new String("Selenium");

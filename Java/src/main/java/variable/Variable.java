@@ -15,8 +15,8 @@ public class Variable {
 	
 	
 	//----For non static variable----
-	int k=50;//static variable inside the class only not inside the methods/constructor and blocks
-	int l=100;//static variable inside the class only not inside the methods/constructor and blocks
+	int k=50;//non static variable inside the class only not inside the methods/constructor and blocks
+	int l=100;//non static variable inside the class only not inside the methods/constructor and blocks
 	
 	public void subtract() {
 		

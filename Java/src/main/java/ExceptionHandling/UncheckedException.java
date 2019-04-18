@@ -24,8 +24,9 @@ public class UncheckedException {
 		
          try {
      		Properties prop =new Properties();
-     		FileInputStream fis = new FileInputStream("C:\\Users\\gupta.av\\eclipse-workspace\\Java\\Fil.properties");
+     		FileInputStream fis = new FileInputStream("C:\\Users\\gupta.av\\eclipse-workspace\\Java\\File.properties");
      		prop.load(fis);
+     		System.out.println("Exception");
          }
          
          catch (FileNotFoundException e) {

@@ -2,7 +2,7 @@ package ExceptionHandling;
 
 public class FinalVSFinallyVSFinalize {
 	
-	final static  int x=100;
+	final  static  int x=100;
 
 	
 	@Override
